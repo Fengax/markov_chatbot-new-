@@ -16,7 +16,7 @@ class markovBot:
 
     def run(self, textfile):
         while True:
-            chat = input()
+            chat = input("Enter your message, must be at least two words: ")
             chat_lower = chat.lower()
 
             try:
